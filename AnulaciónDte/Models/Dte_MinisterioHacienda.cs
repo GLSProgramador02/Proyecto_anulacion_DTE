@@ -24,7 +24,7 @@ namespace AnulaciónDte.Models
             modelBuilder.Entity<Actividad_Economica>().ToTable("CAT019_ACTIVIDAD_ECONOMICA");
             modelBuilder.Entity<Receptor>().ToTable("DTE_RECEPTOR");
             modelBuilder.Entity<Emisor>().ToTable("DTE_EMISOR");
-            modelBuilder.Entity<Responsable_Anulacion>().ToTable("DTE_RESPONSABLE_ANULACION");
+            modelBuilder.Entity<Responsable_Anulacion>().ToTable("DTE_MOTIVO_ANULACION");
             modelBuilder.Entity<Tipo_Docemento_Identificacion_Receptor>().ToTable("CAT022_TIPO_DOCU_IDENTIFICACION_RECEPTOR");
 
             modelBuilder.Entity<Respuesta_hacienda>().ToTable("DTE_RESPUESTA_HACIENDA");
